@@ -25,13 +25,12 @@ function renderCategories(categories) {
     categoryListHtml +=
       '<div class="category-item rounded-3 d-flex justify-content-center align-items-center">' +
       '<a class="text-decoration-none text-white" href="productList.html?categoryId=' +
-      categories[i].id +
+      categories[i].id + 
       '">' +
       categories[i].name +
       "</a>" +
       "</div>";
   }
-
   categoryList.innerHTML = categoryListHtml;
 }
 
